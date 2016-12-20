@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <h3 class="title">NO</h3>
 </head>
@@ -7,16 +8,33 @@
     <div class="mainbody">
         NOT YET
     </div>
+    <footer class="footer">
+        If it does, put seven people in a spaceship and call it an ark.
+    </footer>
 </body>
 </html>
 <style>
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .title{
-    text-align: -webkit-center;
-    font-size: 80px;
-    font-weight: normal;
+  text-align: center;
+  font-size: 80px;
+  font-weight: normal;
 }
 .mainbody{
-    font-size: 45px;
-    text-align: -webkit-center;
+  font-size: 45px;
+  flex: 1;
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
 }
 </style>
